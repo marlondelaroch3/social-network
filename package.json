@@ -20,13 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .ts,.tsx ./src/pages ./src/components ./src/index.tsx ./src/App.tsx"
   },
   "browserslist": {
     "production": [
@@ -39,5 +34,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "eslint": "^8.50.0",
+    "eslint-plugin-const-case": "^1.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
