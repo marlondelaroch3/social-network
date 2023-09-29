@@ -6,7 +6,7 @@ interface TextProps {
   type: 'h1' | 'p';
 }
 
-const Text: React.FC<TextProps> = ({ text, color, type }) => {
+const Text = ({ text, color, type }:TextProps):JSX.Element => {
   return (
     <>
       {
