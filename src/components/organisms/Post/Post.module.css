@@ -1,0 +1,103 @@
+.postContainer {
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : space-between;
+    height             : 460px;
+    width              : 100%;
+    border-radius      : 5px;
+    -webkit-box-shadow : -2px 1px 30px 9px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow    : -2px 1px 30px 9px rgba(50, 50, 50, 0.44);
+    box-shadow         : -2px 1px 30px 9px rgba(50, 50, 50, 0.44);
+    margin-top         : 100px;
+}
+
+
+.postContainer [id=tagsGroup]>div {
+    opacity         : 85%;
+    background-color: var(--mainBackgroundColor);
+    border-radius   : 10px;
+    height          : fit-content;
+    margin          : 10px;
+    margin-left     : 10px;
+    min-width       : 100px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    color           : var(--textColorPrimary);
+    font-family     : Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.postContainer [id=tagsGroup] {
+    width: 90%;
+}
+
+.postContainer [id='postLikeButtonContainer'] {
+    width          : 10%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.postContainer [id=tagsGroup] p {
+    margin: 0;
+}
+
+.postContainer [id=likeButton] {
+    background-color: transparent;
+    width           : 70%;
+    border          : none;
+    cursor          : pointer;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+.postContainer [id=postTextContainer] {
+    opacity               : 85%;
+    width                 : 50%;
+    height                : 100%;
+    background-color      : var(--mainBackgroundColor);
+    display               : flex;
+    align-items           : center;
+    justify-content       : center;
+    border-top-left-radius: 15px;
+}
+
+.postContainer [id=postTextContainer] p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size  : 15px;
+    width      : 75%;
+}
+
+
+.postContainer div:last-child [id=postProfileButton] {
+    width : 30%;
+    border: none;
+}
+
+.postContainer div:last-child [id=postProfileButton] div {
+    display       : flex;
+    align-items   : center;
+    padding-bottom: 20px;
+}
+
+.postContainer div:last-child [id=postProfileButton] img {
+    width       : 30%;
+    height      : auto;
+    margin-right: 10px;
+    margin-left : 10px;
+}
+
+.postContainer div:last-child [id=postProfileButton] h1 {
+    width       : 30%;
+    height      : auto;
+    margin-right: 10px;
+    margin-left : 10px;
+    color       : var(--mainBackgroundColor);
+    text-shadow : 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

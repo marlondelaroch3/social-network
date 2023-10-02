@@ -1,0 +1,27 @@
+.slide {
+    display: inline-block;
+    height : 100%;
+    width  : 100%;
+}
+
+.slide p {
+    color    : var(--mainBackgroundColor);
+    font-size: 30px;
+    margin   : 0;
+}
+
+.slide img {
+    width       : auto;
+    height      : 65%;
+    margin-right: 20px;
+}
+
+.slide>div>div {
+    display    : flex;
+    align-items: center;
+}
+
+.slide>div {
+    width : fit-content;
+    margin: 0 auto;
+}

@@ -1,18 +1,13 @@
 import React from 'react'
+import IText from '../../../types/Text'
 
-interface TextProps {
-  text: string;
-  color: string;
-  type: 'h1' | 'p';
-}
-
-const Text = ({ text, color, type }:TextProps):JSX.Element => {
+const Text = ({ text, type }: IText): JSX.Element => {
   return (
     <>
       {
         type === 'h1'
-          ? <h1 style={{ color: color }}>{text}</h1>
-          : <p style={{ color: color }}>{text}</p>
+          ? <h1>{text}</h1>
+          : <p>{text}</p>
       }
     </>
   )

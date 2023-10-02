@@ -1,0 +1,6 @@
+.postTextContainer {
+    width           : '20%';
+    height          : '30%';
+    padding-right   : 30px;
+    background-color: var(--mainBackgroundColor);
+}

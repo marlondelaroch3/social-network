@@ -12,6 +12,7 @@
   "plugins": ["react", "react-hooks", "const-case", "@typescript-eslint"],
   "rules": {
     "no-console": "warn",
+    "no-debugger": "warn",
     "quotes": ["error", "single"],
     "jsx-quotes": ["error", "prefer-single"],
     "no-var": "error",

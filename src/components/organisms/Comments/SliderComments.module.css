@@ -1,0 +1,16 @@
+.slideshow {
+    margin   : 0 auto;
+    overflow : hidden;
+    max-width: 100%;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition : ease 1000ms;
+    height     : 78px;
+}
+
+.slideshowSlider h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color      : var(--mainBackgroundColor);
+}
